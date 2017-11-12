@@ -2,9 +2,9 @@ FROM python
 
 LABEL maintainer="robertoachar@gmail.com"
 
-WORKDIR /python-docker
+WORKDIR /app
 
-COPY . /python-docker
+COPY . /app
 
 ENTRYPOINT [ "python" ]
 
